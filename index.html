@@ -2,12 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Static Website</title>
+  <title>My Azure Static Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Hello Azure</h1>
+  <header>
+    <h1>Welcome to My Azure Website</h1>
+    <p>Hosted using Microsoft Azure Static Web Apps</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>
+      This website is created as part of a cloud computing assignment.
+      It demonstrates deployment of a static website using Microsoft Azure.
+    </p>
+  </section>
+
+  <section id="features">
+    <h2>Features</h2>
+    <ul>
+      <li>Azure Static Web App Hosting</li>
+      <li>GitHub Actions CI/CD</li>
+      <li>Fast and Secure Deployment</li>
+      <li>Global Accessibility</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Name: Aditya Tiwari</p>
+    <p>College: Engineering Student</p>
+    <button onclick="showMessage()">Click Me</button>
+  </section>
+
+  <footer>
+    <p>© 2026 | Azure Cloud Assignment</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
